@@ -6,3 +6,25 @@ This DOES come with Telescope, Harpoon, and Treesitter though. Keybindings are t
 Unlike ThePrimeagen, GitHub Copilot is integrated, as is debugging for Python. I used dap for debugging, so feel free to edit dap configs in init.lua to match your preferred language. 
 This is a transparent editor, with rose-pine colorscheme (ElfLord also looks really cool on it.)
 This is for anybody to use. Enjoy!
+
+-- The entire NeoVim configuration will take place within the ~/.config/nvim directory. This is the general directory-tree structure -- 
+~/.config/nvim
+├── after
+│   └── plugin
+│       ├── color.lua
+│       ├── fugitive.lua
+│       ├── harpoon.lua
+│       ├── lsp.lua
+│       ├── telescope.lua
+│       ├── treesitter.lua
+│       └── undotree.lua
+├── lua
+│   └── snowcustoms
+│       ├── init.lua
+│       ├── packer.lua
+│       ├── remap.lua
+│       └── set.lua
+├── lua-language-server
+├── plugin
+│   └── packer_compiled.lua
+└── init.lua
