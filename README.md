@@ -1,4 +1,4 @@
-Customoized NeoVim IDE w/ CoPilot and dap debugging. 
+Customized NeoVim IDE w/ CoPilot and dap debugging. 
 Inspired by ThePrimeagens configuration and LSP-Zero. (I used same directory structure)
 Comes with LSP's for Python, C, Java, Java/Typescript, and Lua. (Can add more via packer.lua)
 INSPIRED by ThePrimeagen DOES NOT mean COPIED. If you want ThePrimeagens NeoVim, there is a repo for that (although I believe it's outdated and no longer is compatible with LSP-Zero as is). 
